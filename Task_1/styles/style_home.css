@@ -226,3 +226,99 @@ header nav ul li a.btn {
     line-height: 28px;
 
 }
+
+.testimonials {
+    background: #F4F6FC;
+}
+
+.testimonials .container {
+    padding-top: 70px;
+    display: flex;  
+    align-items: flex-start;
+    justify-content: space-between; 
+    gap: 50px; 
+}
+
+.testimonials__info {
+    flex:1;
+    max-width: 35%;
+}
+
+.testimonials__info h3 {
+    color: #282938;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 56px;
+}
+
+.testimonials__info p {
+    color: #282938;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.testimonials__content {
+    flex:2;
+    max-width: 65%;
+    position: relative;
+}
+
+blockquote {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 48px;
+}
+
+.testimonials__author {
+    margin: 30px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.testimonials__author img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.testimonials__author div {
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonials__author strong {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #282938;
+}
+
+.testimonials__author span {
+    font-size: 12px;
+    font-weight: 400;
+    color: #282938;
+}
+
+.testimonials__nav {
+    position: absolute;
+    right: 0px;
+    bottom: 10px;
+}
+
+.testimonials__nav button {
+    color:#282938;
+    background: none;
+    outline: none;
+    border: none;
+    padding: 8px;
+    margin: 5px;
+    border-radius: 80%;
+    cursor: pointer;
+}
+
+.testimonials__nav button:hover {
+    background: #5239FA;
+    color: white;
+}
