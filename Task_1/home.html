@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Good site</title>
     <link href="styles/style_home.css" rel="stylesheet">
+    <script src="script/home.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -112,6 +113,30 @@
                 </div>
             </div>
             
+        </div>
+    </div>
+    <div class="testimonials">
+        <div class="container">
+            <div class="testimonials__info">
+                <h3>What our clients say about us</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed.</p>
+            </div>
+            <div class="testimonials__content">
+                <blockquote id="testimonial-text">
+                    "The best agency we’ve worked with so far. They understand our product and are able to add new features with a great focus."
+                </blockquote>
+                <div class="testimonials__author">
+                    <img id="testimonial-avatar" src="images/jenny.png" alt="Jenny Wilson">
+                    <div>
+                        <strong id="testimonial-name">Jenny Wilson</strong>
+                        <span id="testimonial-role">Vice President</span>
+                    </div>
+                </div>
+                <div class="testimonials__nav">
+                    <button class="prev" onclick="prevTestimonial()">&#10094;</button>
+                    <button class="next" onclick="nextTestimonial()">&#10095;</button>
+                </div>
+            </div>
         </div>
     </div>
 </body>
