@@ -351,7 +351,6 @@ blockquote {
     font-size: 18px;
     font-weight: 500;
     line-height: 32px;
-    text-decoration: none;
 }
 
 .faq__content {
@@ -407,6 +406,7 @@ blockquote {
 
 .contact-section {
     background:  #F4F6FC;
+    margin-bottom: 20px;
 }
 
 .contact-section .container {
@@ -507,9 +507,102 @@ blockquote {
 }
 
 .contact-right a {
-    text-decoration: none;
     margin-top: 15px;
     font-size: 14px;
     color: #F4F6FC;
+}
+
+.footer {
+    padding-top: 50px;
+    background: #1C1E53;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .logo {
+    font-size: 24px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.footer__info,
+.footer__talk {
+    width: 48%;
+}
+
+
+.footer__talk h3 {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    color: #FFFFFF;
+}
+
+.footer__info > p,
+.footer__talk p {
+    width: 75%;
+    padding-top: 15px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.footer__contact-box {
+    background: #FCD980;
+    color: #282938;
+    width: 80%;
+    gap: 20px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px 30px;
+    margin-top: 100px;
+}
+
+.footer__contact-item h4 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.footer__contact-item p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.footer__socials {
+    margin-top: 10px;
+    display: flex;
+    gap: 15px;
+}
+
+.footer__socials a {
+    color: white;
+    font-size: 18px;
+}
+
+.footer__bottom .container{
+    background: white;
+    color: black;
+    display: flex;
+    justify-content: space-between; 
+    padding: 25px;  
+}
+
+.footer__menu {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+
+.footer__menu a {
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
 }
 
