@@ -38,5 +38,29 @@ function prevTestimonial() {
     updateTestimonial();
 }
 
+//FAQ
+document.addEventListener("DOMContentLoaded", function () {
+    const faqItems = document.querySelectorAll(".faq__item");
+
+    faqItems.forEach((item) => {
+        const question = item.querySelector(".faq__question");
+        const answer = item.querySelector(".faq__answer");
+        const toggleButton = item.querySelector(".faq__toggle");
+
+        question.addEventListener("click", function () {
+            const isOpen = answer.style.display == "block";
+            document.querySelectorAll(".faq__answer").forEach((ans) => {
+                ans.style.display = "none";
+            });
+            document.querySelectorAll(".faq__toggle").forEach((btn) => {
+                btn.textContent = "+";
+            });
+            if (!isOpen) {
+                answer.style.display = "block";
+                toggleButton.textContent = "×";
+            }
+        });
+    });
+});
 
 
