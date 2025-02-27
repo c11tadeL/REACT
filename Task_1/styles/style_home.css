@@ -223,10 +223,10 @@ header nav ul li a.btn {
 }
 
 .features__block {
-    
-    max-width: 290px;
+    max-height: 316px;
+    max-width: 350px;
     background: #F4F6FC;
-    padding: 15px;
+    padding: 50px 35px;
 }
 
 .features__block img {
