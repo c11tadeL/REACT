@@ -260,7 +260,7 @@ header nav ul li a.btn {
     display: flex;  
     align-items: flex-start;
     justify-content: space-between; 
-    gap: 50px; 
+    gap: 80px; 
 }
 
 .testimonials__info {
