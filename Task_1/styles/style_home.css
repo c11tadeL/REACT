@@ -115,14 +115,48 @@ header nav ul li a.btn {
     position: absolute;
     top: 55px;
     height: 361px;
-    right: -5px;
-    width: 50%;
+    right: 15px;
 }
 
 .how_weWork {
     background: #F4F6FC;
     padding: 70px 0;
-    height: 390px;
+}
+
+.how_weWork .container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.how_weWork .container > h2 {
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.how_weWork .text-content {
+    max-width: 350px;
+    margin-right: 100px;
+}
+
+.how_weWork .container > p {
+    margin-bottom: 10px;
+}
+
+.text-content a {
+    display: block;
+    color: #2405F2;
+    text-decoration: none;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.how__info {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 10px 10px;
+    flex: 1;
+    margin-top: -45px;
+    margin-left: 100px;
 }
 
 .how_weWork h2 {
@@ -132,32 +166,22 @@ header nav ul li a.btn {
     line-height: 64px;
 }
 
-.how_weWork p,.how__info p {
+.how_weWork p, .how__info p {
     color: #282938;
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
     margin: 15px 0;
-    max-width: 350px;
 }
 
-.how__info {
-   display: grid;
-   grid-template-columns: 1fr 1fr;
-   position: absolute;
-   top: 650px;
-   right: 0px;
-   width: 55%;
-}
-
-.how__info h3{
+.how__info h3 {
     color: #282938;
     font-size: 32px;
     font-weight: 500;
     line-height: 48px;
 }
 
-.how__info p{
+.how__info p {
     max-width: 250px;
 }
 
