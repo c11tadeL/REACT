@@ -133,6 +133,7 @@ header nav ul li a.btn {
     font-size: 14px;
     color: #000000;
     background: transparent;
+    appearance: none;
 }
 
 .contact__form textarea {
