@@ -265,7 +265,6 @@ header nav ul li a.btn {
 
 .testimonials__info {
     flex:1;
-    max-width: 35%;
 }
 
 .testimonials__info h3 {
@@ -284,7 +283,6 @@ header nav ul li a.btn {
 
 .testimonials__content {
     flex:2;
-    max-width: 65%;
     position: relative;
 }
 
@@ -292,6 +290,7 @@ blockquote {
     font-size: 32px;
     font-weight: 500;
     line-height: 48px;
+    width: 90%;
 }
 
 .testimonials__author {
@@ -350,6 +349,7 @@ blockquote {
 .faq {
     background:  #F4F6FC;
 }
+
 .faq .container {
     display: flex;
     align-items: flex-start;
@@ -424,8 +424,7 @@ blockquote {
     font-weight: 500;
     line-height: 32px;
     color: #282938;
-    padding-top: 10px;
-    max-width: 90%;
+    padding:20px 43px;
 }
 
 .contact-section {
@@ -440,9 +439,8 @@ blockquote {
 }
 
 .contact-left {
-    flex: 1;
-    padding: 20px;
-    max-width: 50%;
+    padding: 70px;
+    max-width: 40%;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('../images/contact_background.jpg') no-repeat  center ;
     background-size: cover;
 }
@@ -452,7 +450,7 @@ blockquote {
     font-weight: 600;
     line-height: 50px;
     color: #FFFFFF;
-    padding: 25px 10px;
+    max-width: 70%;
 }
 
 .contact-left p {
@@ -460,17 +458,17 @@ blockquote {
     font-weight: 500;
     line-height: 28px;
     color:#FFFFFF;
-    padding: 0 10px;
+    margin-top: 20px;
+    max-width: 80%;
 }
 
 .contact-right {
-    flex: 2;
     background: #1C1E53;
-    padding: 20px;
+    padding: 70px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 50%;
+    max-width: 40%;
 }
 
 .contact-right h3,
@@ -567,7 +565,7 @@ footer .logo {
 
 .footer__info > p,
 .footer__talk p {
-    width: 75%;
+    max-width: 370px;
     padding-top: 15px;
     font-size: 16px;
     font-weight: 500;
