@@ -14,6 +14,8 @@ function App() {
       </div>
       <HowWeWork />
       <Features />
+      <Testimonials />
+      <Faq />
     </>
   );
 }
