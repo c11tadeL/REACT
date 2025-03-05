@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
-import Header from './components/home/Header';
-import Footer from './components/home/Footer';
+import Header from './components/common/Header';
+import Footer from './components/common/Footer';
 
 import HeroSection from './components/home/HeroSection';
 import HowWeWork from './components/home/HowWeWork';
 import Features from './components/home/Features';
 import Testimonials from './components/home/Testimonials';
-import Faq from './components/home/Faq';
+import Faq from './components/common/Faq';
 import Contact from './components/home/Contact';
 
 import AboutHero from './components/about/AboutHero';
@@ -15,6 +15,8 @@ import ProcessFollow from './components/about/ProcessFollow';
 import MissionVision from './components/about/MissionVision';
 import Benefits from './components/about/Benefits';
 import Team from './components/about/Team';
+
+import Pricing from './components/pricing/Pricing';
 
 function App() {
   const [currentPage, setCurrentPage] = useState('home');
@@ -53,6 +55,13 @@ function App() {
           <MissionVision />
           <Benefits />
           <Team />
+        </>
+      )}
+
+      {currentPage == 'pricing' && (
+        <>
+          <Pricing />
+          <Faq />
         </>
       )}
 
