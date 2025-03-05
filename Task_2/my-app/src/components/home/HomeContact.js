@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../styles/style_home.css';
 
-function Contact() {
+function HomeContact() {
   return (
     <div className="contact-section">
       <div className="container">
@@ -25,4 +25,4 @@ function Contact() {
   );
 }
 
-export default Contact;
+export default HomeContact;
