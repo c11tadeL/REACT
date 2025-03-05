@@ -1,0 +1,291 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Popins', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+.wrapper {
+    background-color: #1C1E53;
+    width: 100%;
+}
+
+.container {
+    width:1300px;
+    margin: 0 auto;
+}
+
+header {
+    padding: 27px 0;
+}
+
+header .logo {
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+header nav {
+    float: right;
+    width: 45%;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li a.active{
+    color: #FFFFFF;
+}
+
+header nav ul li a:not(.active):not(.btn) {
+    color: #BBBBCB;
+}
+
+header nav ul li a.btn {
+    border: 2px solid #F4F6FC33;
+    background-color: transparent;
+    color: #FFFFFF;
+    padding: 13px 44px;
+    border-radius: 41px; 
+}
+
+.contact {
+    padding: 80px 0;
+    background-color: #FFFFFF;
+}
+
+.contact__title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.contact__title h2 {
+    font-size: 48px;
+    line-height: 64px;
+    font-weight: 600;
+    color: #282938;
+    margin-bottom: 15px;
+}
+
+.contact__title p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #282938;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.contact__form-wrapper {
+    background-color: #F4F6FC;
+    border-radius: 12px;
+    padding: 50px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.contact__form {
+    width: 100%;
+}
+
+.contact__form-row {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 30px;
+}
+
+.contact__form-group {
+    flex: 1;
+    margin-bottom: 20px;
+}
+
+.contact__form label {
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: #1D1D1D;
+}
+
+.contact__form input,
+.contact__form select,
+.contact__form textarea {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #E8E8E8;
+    border-radius: 6px;
+    font-size: 14px;
+    color: #000000;
+    background: transparent;
+    appearance: none;
+}
+
+.contact__form textarea {
+    resize: none;
+}
+
+.contact__form select {
+    appearance: none;
+    width: 108%;
+}
+
+
+.contact__form input::placeholder,
+.contact__form textarea::placeholder {
+    color: #000000;
+}
+
+.contact__form-action {
+    margin-top: 10px;
+}
+
+.button {
+    background: #282938;
+    color: #F4F6FC;
+    font-size:18px;
+    font-weight: 600;
+    line-height: 32px;
+    font-family: 'Manrope',sans-serif;
+    border-radius: 41px;
+    margin: 15px 0;
+    padding: 13px 45px;
+    border: 0;
+}
+
+.button:hover {
+    cursor: pointer;
+    background: #FCD980;
+    color: #282938;
+    transition: all 500ms ease;
+}
+
+.input-error {
+    border-color: #FF5252 !important;
+}
+
+.error-message {
+    color: #FF5252;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.btn-loading {
+    background-color: #4A4A4A;
+    cursor: wait;
+}
+
+.btn-success {
+    background-color: #4CAF50;
+}
+
+
+
+.footer {
+    padding-top: 50px;
+    background: #1C1E53;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .logo {
+    font-size: 24px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.footer__info,
+.footer__talk {
+    width: 48%;
+}
+
+
+.footer__talk h3 {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    color: #FFFFFF;
+}
+
+.footer__info > p,
+.footer__talk p {
+    max-width: 370px;
+    padding-top: 15px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.footer__contact-box {
+    background: #FCD980;
+    color: #282938;
+    width: 80%;
+    gap: 20px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px 30px;
+    margin-top: 100px;
+}
+
+.footer__contact-item h4 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.footer__contact-item p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.footer__socials {
+    margin-top: 10px;
+    display: flex;
+    gap: 15px;
+}
+
+.footer__socials a {
+    color: white;
+    font-size: 18px;
+}
+
+.footer__bottom .container{
+    background: white;
+    color: black;
+    display: flex;
+    justify-content: space-between; 
+    padding: 25px;  
+}
+
+.footer__menu {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+
+.footer__menu a {
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
+}
