@@ -7,7 +7,7 @@ import HowWeWork from './components/home/HowWeWork';
 import Features from './components/home/Features';
 import Testimonials from './components/home/Testimonials';
 import Faq from './components/common/Faq';
-import Contact from './components/home/Contact';
+import HomeContact from './components/home/HomeContact';
 
 import AboutHero from './components/about/AboutHero';
 import WhoWeAre from './components/about/WhoWeAre';
@@ -17,6 +17,8 @@ import Benefits from './components/about/Benefits';
 import Team from './components/about/Team';
 
 import Pricing from './components/pricing/Pricing';
+
+import Contact from './components/contact/Contact'
 
 function App() {
   const [currentPage, setCurrentPage] = useState('home');
@@ -43,7 +45,7 @@ function App() {
           <Features />
           <Testimonials />
           <Faq />
-          <Contact />
+          <HomeContact />
         </>
       )}
 
@@ -62,6 +64,12 @@ function App() {
         <>
           <Pricing />
           <Faq />
+        </>
+      )}
+
+      {currentPage == 'contact' && (
+        <>
+          <Contact />
         </>
       )}
 
