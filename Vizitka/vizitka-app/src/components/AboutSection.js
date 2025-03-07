@@ -11,7 +11,7 @@ const AboutSection = () => {
           </div>
           <div className="content-container">
             <p className="content-primary">
-                I am a year student of the Bogdan Khmelnitsky National University of Cherkasy
+                I am a student of the Bogdan Khmelnitsky National University of Cherkasy
             </p>
             <p className="content-secondary content-margin">
                  I am currently in my third year, major "Computer science".
