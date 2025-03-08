@@ -13,6 +13,7 @@ const App = () => {
         <HeroSection />
         <AboutSection />
         <ExperienceSection />
+        <EducationSection />
       </div>
     </div>
   );
