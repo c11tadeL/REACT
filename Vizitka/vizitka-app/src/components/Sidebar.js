@@ -18,10 +18,6 @@ const Sidebar = () => {
                     </a>
                 ))}
             </div>
-            
-            <div className="copyright">
-                <div className="vertical-text">© 2025</div>
-            </div>
         </div>
     );
 };
