@@ -3,6 +3,8 @@ import Sidebar from './components/Sidebar';
 import HeroSection from './components/HeroSection';
 import AboutSection from './components/AboutSection';
 import ExperienceSection from './components/ExperienceSection';
+import EducationSection from './components/EducationSection';
+import Footer from './components/Footer';
 
 
 const App = () => {
@@ -14,6 +16,7 @@ const App = () => {
         <AboutSection />
         <ExperienceSection />
         <EducationSection />
+        <Footer />
       </div>
     </div>
   );
