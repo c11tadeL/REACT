@@ -14,7 +14,7 @@ const HeroSection = () => {
           </p>
         </div>
         <div className="profile-container">
-          <div className="purple-background"></div>
+          <div className="gradient-background"></div>
           <div className="image-wrapper">
             <img src={HeroImage} alt="Portrait" className="profile-image" />
           </div>
