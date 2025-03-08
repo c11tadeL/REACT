@@ -5,8 +5,8 @@ const Sidebar = () => {
     const navItems = [
         { name: "ABOUT ME", link: "." },
         { name: "EXPERIENCE", link: "/" },
-        { name: "GitHub", link: "/" },
-        { name: "Telegram", link: "/" }
+        { name: "EDUCATION", link: "/" },
+        { name: "TELEGRAM", link: "/" }
     ];
 
     return (
