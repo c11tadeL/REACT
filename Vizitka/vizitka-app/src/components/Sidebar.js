@@ -3,17 +3,16 @@ import '../styles/style.css';
 
 const Sidebar = () => {
     const navItems = [
-        { name: "ABOUT ME", link: "." },
-        { name: "EXPERIENCE", link: "/" },
-        { name: "EDUCATION", link: "/" },
-        { name: "TELEGRAM", link: "/" }
+        { name: "ABOUT ME", link: "#about-me" },
+        { name: "EXPERIENCE", link: "#experience" },
+        { name: "EDUCATION", link: "#education" },
     ];
 
     return (
         <div className="sidebar">
             <div className="nav-items">
                 {navItems.map((item, index) => (
-                    <a key={index} href={item.link} className="nav-item" target={item.link.startsWith("http") ? "_blank" : "_self"} rel="noopener noreferrer">
+                    <a key={index} href={item.link} className="nav-item">
                         {item.name}
                     </a>
                 ))}
