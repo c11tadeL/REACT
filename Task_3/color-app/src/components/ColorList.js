@@ -8,7 +8,7 @@ const ColorList = ({ palette, onColorSelect, onBack }) => {
       <div className="color-list-header">
         <button className="back-button" onClick={onBack}>← Back to Palettes</button>
         <h1 className="color-list-title">
-          {palette.paletteName} {palette.emoji}
+          {palette.paletteName} {palette.emoji} <br/>Copyformat HEX #
         </h1>
       </div>
       <div className="color-list">
