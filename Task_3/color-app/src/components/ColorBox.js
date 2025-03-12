@@ -13,7 +13,6 @@ const ColorBox = ({ color, onSelect }) => {
     >
       <div className={`color-box-content ${isDark ? 'light-text' : 'dark-text'}`}>
         <span className="color-name">{color.name}</span>
-        <span className="color-value">{color.color}</span>
       </div>
     </div>
   );
