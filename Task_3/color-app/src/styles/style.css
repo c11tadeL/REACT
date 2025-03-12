@@ -92,3 +92,43 @@
     font-size: 24px;
   }
 
+  .color-list-container {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+  
+  .color-list-header {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 32px;
+  }
+  
+  .color-list-title {
+    text-align: center;
+    color: white;
+    margin: 16px 0;
+    font-size: 40px;
+  }
+  
+  .back-button {
+    align-self: flex-start;
+    background-color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .back-button:hover {
+    background-color: grey;
+  }
+  
+  .color-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    padding: 10px;
+  }
+  
