@@ -132,3 +132,39 @@
     padding: 10px;
   }
   
+  .color-box {
+    height: 180px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  
+  .color-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  .color-box-content {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  .light-text {
+    color: snow;
+  }
+  
+  .dark-text {
+    color: black;
+  }
+  
+  .color-name {
+    font-weight: 500;
+    font-size: 28px;
+  }
